@@ -14,6 +14,7 @@ public class Diamond extends WindowController {
         new Line(width, (height / 2), (width / 2), height, canvas);
         new Line((width / 2), height, 0, (height / 2 ), canvas);
         new Line(0, (height / 2), (width / 2), 0, canvas);
+        //each point is calculated using the midpoint formula
         new Line (((width / 2) / 2), ((height / 2) / 2), ((width + (width / 2)) / 2), ((height + (height / 2)) / 2), canvas);
         new Line ((((width / 2) + width) / 2), ((height / 2) / 2), ((width / 2) / 2), (((height / 2) + height) / 2), canvas);
     }
